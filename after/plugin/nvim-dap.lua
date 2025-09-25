@@ -87,7 +87,7 @@ end)
 
 dap.adapters.coreclr = {
   type = 'executable',
-  command = '/home/kali/netcoredbg/netcoredbg',
+  command = 'netcoredbg',
   args = {'--interpreter=vscode'}
 }
 
