@@ -64,7 +64,7 @@ return require('packer').startup(function(use)
     use { "akinsho/toggleterm.nvim", tag = '*' }
 
     -- smooth scroll
-    use 'karb94/neoscroll.nvim'
+    -- use 'karb94/neoscroll.nvim'
 
     -- language servers
     use {
